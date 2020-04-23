@@ -70,11 +70,11 @@ const newJob = new Job({
     jobAdress: "Favela, Nr. 33"
 })
 
-// Empty the DB, run these once and then comment them to avoid duplication
+//Run these once and then comment them to avoid duplication
 
-// newReview.save();
-// workingUser.save();
-// employingUser.save();
-// newHandyMan.save();
-// newJob.save();
+newReview.save();
+workingUser.save();
+employingUser.save();
+newHandyMan.save();
+newJob.save();
 
