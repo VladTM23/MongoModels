@@ -2,10 +2,6 @@ const mongoose = require('mongoose');
 const userSchema = require('./userSchema');
 const handyManSchema = require('./handyManSchema');
 
-mongoose.connect('mongodb://localhost:27017/handyManDB',
-                {useNewUrlParser: true, useUnifiedTopology: true});
-
-
 const jobSchema = new mongoose.Schema({
     jobOwner: {
         type: [userSchema],

@@ -1,9 +1,5 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/handyManDB',
-                {useNewUrlParser: true, useUnifiedTopology: true});
-
-
 const reviewSchema = new mongoose.Schema({
         ratingScore : {
             type: Number,

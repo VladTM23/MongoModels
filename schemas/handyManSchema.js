@@ -2,9 +2,6 @@ const mongoose = require('mongoose');
 const reviewSchema = require('./reviewSchema');
 const userSchema = require('./userSchema');
 
-mongoose.connect('mongodb://localhost:27017/handyManDB',
-                {useNewUrlParser: true, useUnifiedTopology: true});
-
 const handyManSchema = new mongoose.Schema({
     info: {
         type: [userSchema],
