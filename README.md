@@ -1,5 +1,7 @@
 # MongoModels
 
+Run `npm install`
+
 Run `node index.js`
 
 In order to see the DB and the collections: 
